@@ -31,13 +31,13 @@ export default createMuiTheme({
     },
     typography:{
         tab: {
-            fontFamily: 'Mono',
+            fontFamily: 'Overpass Mono',
             textTransform: 'none',
             fontWeight: 600,
             fontSize: '1.3rem',
         },
         estimate: {
-            fontFamily: 'Mono',
+            fontFamily: 'Overpass Mono',
             fontWeight:  600,
             fontSize: '1rem',
             textTransform: 'none',
