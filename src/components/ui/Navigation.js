@@ -22,9 +22,9 @@ const useStyles = makeStyles(theme =>({
 
     toolbarMargin: {
         ...theme.mixins.toolbar,
-        marginBottom: "3rem",
-        [theme.breakpoints.down("sm")]:{
-            marginBottom: "2.25rem"
+        marginBottom: "2.00rem",
+        [theme.breakpoints.down("md")]:{
+            marginBottom: "1rem"
         }
     },
     logo:{

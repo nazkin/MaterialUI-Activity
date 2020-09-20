@@ -3,7 +3,7 @@ import { createMuiTheme } from '@material-ui/core/styles';
 const bluegreen = "#116466"
 const smokyLinen = "#d9b08c"
 const steelBlue = "#d1e8e2"
-const char = "#2c3531"
+const char = "#0D0208"
 const cleanLinen = "#ffcb9a"
 
 export default createMuiTheme({
@@ -37,22 +37,49 @@ export default createMuiTheme({
             fontSize: '1.3rem',
         },
         estimate: {
-            fontFamily: 'Overpass Mono',
-            fontWeight:  600,
+            fontFamily: 'Roboto',
+            fontWeight:  400,
             fontSize: '1rem',
             textTransform: 'none',
         },
         h1:{
-            fontWeight: 500
+            fontWeight: 500,
+            fontFamily: 'Overpass Mono',
+            fontSize: "3rem",
+            padding: "10px",
         },
         h2: {
-            fontWeight: 400
+            fontWeight: 400,
+            fontFamily: 'Overpass Mono',
+            fontSize: "2.5rem",
+            lineHeight: 1.5,
+            color: `${bluegreen}`,
+            padding: "10px",
         },
         h3: {
-            fontWeight: 300
+            fontWeight: 400,
+            fontFamily: 'Overpass Mono',
+            fontSize: "2.5rem",
+            color: `${bluegreen}`,
+            lineHeight: 1.5,
+            padding: "10px",
         },
         h4: {
-            fontWeight: 200
+            fontWeight: 200,
+            fontFamily: 'Overpass Mono',
+            fontSize: "1.5rem",
+            color: `${char}`,
+            lineHeight: 1.5,
+            padding: "10px",
+ 
+        },
+        h5: {
+            fontWeight: 300,
+            fontFamily: 'Overpass Mono',
+            fontSize: "1.5rem",
+            color: `${char}`,
+            lineHeight: 1.5,
+            padding: "10px",
         }
     }
 })
